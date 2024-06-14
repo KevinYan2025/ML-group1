@@ -57,8 +57,7 @@ We will use the following metrics to evaluate our model:
 
 [6] Reed, S. E., Akata, Z., Yan, X., Logeswaran, L., Schiele, B., & Lee, H. (2016). Generative adversarial text to image synthesis. Proceedings of the 33rd International Conference on Machine Learning, 1060-1069. http://proceedings.mlr.press/v48/reed16.html
 
-Gnatt Chart:
-https://gtvault-my.sharepoint.com/:x:/g/personal/aahmed325_gatech_edu/EX_WzZorNqpOsYLy_TFPWeMBmku716cK_ZE9_tpJgMufSA?e=tWEBQl
+[[Gnatt Chart](https://gtvault-my.sharepoint.com/:x:/g/personal/aahmed325_gatech_edu/EX_WzZorNqpOsYLy_TFPWeMBmku716cK_ZE9_tpJgMufSA?e=tWEBQl)]
 
 
 | Name          | Proposal Contribution |
