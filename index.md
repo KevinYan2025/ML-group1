@@ -61,7 +61,7 @@ We will use the following metrics to evaluate our model:
 
 
 | Name          | Proposal Contribution |
-|---------------|----------------------------------------------------------------------------------------------------------|
-| Zhixiang Yan  |set up github and hosting report, creating citation,find data processing method and refine the report     |
-| Abdullah Ahmed|team lead, delegate task and complete introduction and problem definition section                         |
-|Jad Ahmed Helmy|complete method and potential result section, complete Youtube video.                                     |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------|
+| Zhixiang Yan  |set up github and hosting report, creating citation,find data processing method and refine the report, complete youtube video|
+| Abdullah Ahmed|team lead, delegate task and complete introduction and problem definition section                                            |
+|Jad Ahmed Helmy|complete method and potential result section                                                                                 |
