@@ -7,30 +7,30 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-python 12
-git
+python 12    
+git 
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development environment running.
+A step by step series of examples that tell you how to get a development environment running.  
 
-1. Clone the repository
-git clone https://github.com/KevinYan2025/ML-group1.git
-2. Navigate to the project directory
-cd yourprojectdirectory
-3. Create a virtual environment on Mac
-python3 -m venv venv --prompt="env-name"
-4. Activate the virtual environment
-replace venv with your env-name
-On Mac/Linux: source venv/bin/activate
-On Windows: venv\Scripts\activate 
+1. Clone the repository     
+git clone https://github.com/KevinYan2025/ML-group1.git   
+2. Navigate to the project directory    
+cd yourprojectdirectory   
+3. Create a virtual environment on Mac    
+python3 -m venv venv --prompt="env-name"   
+4. Activate the virtual environment   
+replace venv with your env-name    
+On Mac/Linux: source venv/bin/activate    
+On Windows: venv\Scripts\activate    
+  
+5. Install the required packages   
+pip install ImageHash    
+pip install notebook  
 
-5. Install the required packages
-pip install ImageHash
-pip install notebook
-
-6. Create .gitignore file
-git ignore env-name  ai_generated_images   human_generated_images
+6. Create .gitignore file  
+git ignore env-name  ai_generated_images   human_generated_images  
 
 ## Running the tests
 
