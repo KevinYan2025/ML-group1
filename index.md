@@ -4,11 +4,11 @@ Authors: Zhixiang Yan, Abdullah Ahmed, Jad Ahmed Helmy
 
 ## Introduction / Background
 
-With the rise of generative AI models, we can generate artwork in a few seconds. These generated artworks challenge us to ask how they compare stylistically and formally, in terms of authenticity and coherence, to art created by humans during defined periods in art history. This project aims to use a dataset that contains a collection of artwork of the 50 most influential artists of all time[[dataset](https://www.kaggle.com/datasets/ikarus777/best-artworks-of-all-time)] to train a model to classify the style of an art piece as being from a human or an artificial intelligence (AI) artist.
+With the rise of generative AI models, we can generate artwork in a few seconds. These generated artworks challenge us to ask how they compare stylistically and formally, in terms of authenticity and coherence, to art created by humans during defined periods in art history. This project aims to use a dataset that contains a collection of human-generated artworks and a collection of AI-generated artworks[[dataset](https://www.kaggle.com/datasets/superpotato9/dalle-recognition-dataset?select=real)] to train a model to classify the style of an art piece as being from a human or an artificial intelligence (AI) artist.
 
 ## Problem Definition
 
-Given an image, our project aims to determine whether the art is AI-generated or human-created, and, if the latter, to categorize the style of art (eg, Baroque, Impressionism), thereby classifying the label and the image. A successful model would provide an effective tool for curation of art, digitization of art, and benchmarks towards transparency of AI content creation in the art market.
+Given an image, our project aims to determine whether the art is AI-generated or human-create. A successful model would provide an effective tool for curation of art, digitization of art, and benchmarks towards transparency of AI content creation in the art market.
 
 ## Methods
 
@@ -61,7 +61,7 @@ We will use the following metrics to evaluate our model:
 
 
 | Name          | Proposal Contribution |
-|---------------|----------------------------------------------------------------------------------------------------------|
-| Zhixiang Yan  |set up github and hosting report, creating citation,find data processing method and refine the report     |
-| Abdullah Ahmed|team lead, delegate task and complete introduction and problem definition section                         |
-|Jad Ahmed Helmy|complete method and potential result section, complete Youtube video.                                     |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------|
+| Zhixiang Yan  |set up github and hosting report, creating citation,find data processing method and refine the report, complete youtube video|
+| Abdullah Ahmed|team lead, delegate task and complete introduction and problem definition section                                            |
+|Jad Ahmed Helmy|complete method and potential result section                                                                                 |
