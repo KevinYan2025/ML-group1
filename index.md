@@ -12,17 +12,17 @@ Given an image, our project aims to determine whether the art is AI-generated or
 
 ## Methods
 
-### Data augmentation
+### Data Cleanning
 
-Data augmentation can enrich the variability of the dataset, which is crucial for improving the model's generalization capability.[[1](https://spotintelligence.com/2023/03/09/data-augmentation-python-image-text-nlp/#:~:text=Data%20augmentation%20is%20a%20technique%20used%20in,with%20different%20versions%20of%20the%20same%20information.)]
+We use PIL libary to hash the image and then remove image that has the same hash which in turn remove all duplicate and similar image. and we reize the image to 256,256 and covert all image to RGB mode which ensures consistency within our dataset and help us achieve reliable results.[[1](https://emeritus.org/in/learn/data-science-data-cleaning/)]
 
-### Feature Extraction
+### Data Reduction 
 
-Feature extraction allows us to transform raw image data into numerical features that can yield better performance.[[2](https://www.mathworks.com/discovery/feature-extraction.html#:~:text=What%20Is%20Feature%20Extraction%3F,directly%20to%20the%20raw%20data.)]
+Since our AI-genereated images outnumber the number of human-generated images, we use random sampling technique to reduce the number of AI-generated images to ensure equal representation.[[2](https://towardsdatascience.com/data-preprocessing-e2b0bed4c7fb)]
 
-### Label Encoding
+### Data Labeling
 
-Label encoding allows us to convert categorical data into numerical data for modeling. [[3](https://saturncloud.io/glossary/label-encoding/)] 
+Label each image to create label dataset so that we can use supervise learnning method. [[3](https://aws.amazon.com/what-is/data-labeling/)] 
 
 ### Supervised Learning:
 
@@ -45,11 +45,11 @@ We will use the following metrics to evaluate our model:
 
 ## References
 
-[1] Otten, N. V. (2023, October 31). How to implement data augmentation in Python [Image & Text (NLP)]. Spot Intelligence. https://spotintelligence.com/2023/03/09/data-augmentation-python-image-text-nlp/#:~:text=Data%20augmentation%20is%20a%20technique%20used%20in,with%20different%20versions%20of%20the%20same%20information. 
+[1] Samarth, V. (2023, December 14). Why data cleaning is a significant step for accurate data analysis?. Emeritus India. https://emeritus.org/in/learn/data-science-data-cleaning/. 
 
-[2] Feature extraction explained. Explained - MATLAB & Simulink. (n.d.). https://www.mathworks.com/discovery/feature-extraction.html#:~:text=What%20Is%20Feature%20Extraction%3F,directly%20to%20the%20raw%20data.
+[2] Singh, H. (2020, May 24). Data preprocessing. Medium. https://towardsdatascience.com/data-preprocessing-e2b0bed4c7fb 
 
-[3] Label encoding. Saturn Cloud. (2023, April 4). https://saturncloud.io/glossary/label-encoding/
+[3] What is data labeling? - data labeling explained - AWS. (n.d.). https://aws.amazon.com/what-is/data-labeling/ 
 
 [4] GeeksforGeeks. (2024, April 15). What is opencv library? https://www.geeksforgeeks.org/opencv-overview/
 
@@ -62,6 +62,6 @@ We will use the following metrics to evaluate our model:
 
 | Name          | Proposal Contribution |
 |---------------|-----------------------------------------------------------------------------------------------------------------------------|
-| Zhixiang Yan  |set up github and hosting report, creating citation,find data processing method and refine the report, complete youtube video|
+| Zhixiang Yan  |Complete three data preprocessing method, complete data sourcing                                                             |
 | Abdullah Ahmed|team lead, delegate task and complete introduction and problem definition section                                            |
 |Jad Ahmed Helmy|complete method and potential result section                                                                                 |
