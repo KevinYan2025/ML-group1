@@ -4,7 +4,7 @@ Authors: Zhixiang Yan, Abdullah Ahmed, Jad Ahmed Helmy
 
 ## Introduction / Background
 
-With the rise of generative AI models, we can generate artwork in a few seconds. These generated artworks challenge us to ask how they compare stylistically and formally, in terms of authenticity and coherence, to art created by humans during defined periods in art history. This project aims to use a dataset that contains a collection of human-generated artworks and a collection of AI-generated artworks[[dataset](https://www.kaggle.com/datasets/superpotato9/dalle-recognition-dataset?select=real)] to train a model to classify the style of an art piece as being from a human or an artificial intelligence (AI) artist.
+With the rise of generative AI models, we can generate artwork in a few seconds. These generated artworks challenge us to ask how they compare stylistically and formally, in terms of authenticity and coherence, to art created by humans during defined periods in art history. This project aims to use a dataset that contains a collection of human-generated artworks and a collection of AI-generated artworks[[dataset](https://www.kaggle.com/datasets/superpotato9/dalle-recognition-dataset?select=real)] to train a model to classify art as being created by a human or an artificial intelligence (AI) artist.
 
 ## Problem Definition
 
@@ -18,7 +18,7 @@ We use PIL libary to hash the image and then remove image that has the same hash
 
 ### Data Reduction 
 
-Since our AI-genereated images outnumber the number of human-generated images, we use random sampling technique to reduce the number of AI-generated images to ensure equal representation.[[2](https://towardsdatascience.com/data-preprocessing-e2b0bed4c7fb)]
+Since our the number of AI-genereated images outnumber the number of human-generated images, we use random sampling technique to reduce the number of AI-generated images to ensure equal representation.[[2](https://towardsdatascience.com/data-preprocessing-e2b0bed4c7fb)]
 
 ### Data Labeling
 
