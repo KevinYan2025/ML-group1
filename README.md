@@ -34,14 +34,14 @@ git ignore env-name  ai_generated_images   human_generated_images
 
 ## Description
 
-/data_preprocessing/: This directory contain all the data preprocessing method    
-/data_preprocessing/data_reduction.py: This file using random sampling to reduce the number of image in our dataset, which help us to balance the number AI-generated images and the number human-generated images by randomly selecting certain number of AI-genereated to improve performance of our model     
-/data_preprocessing/data_cleanning.py: This file allow us to remove duplication or similar image by using  PIL libary to hash the image. we also remove all the image that are not jpg format to improve model performance. it also resize all image to 256,256 to ensure all images is consistent      
-/data_preprocessing/data_labeling.py: This file will convert all image to numpy array and label it with value and which output ai_images.npy,ai_label.npy,human_images.npy,human_label.npy      
-/ai_images.npy: this file contain the preprocessed ai generated image as numpy array     
-/ai_images.npy: This file contain the preprocessed ai generated image label as numpy array    
-/human_images.npy: This file contain the preprocessed human generated image as numpy array    
-/human_label.npy: this file contain the preprocessed human generated image label as numpy array   
+- **`/data_preprocessing/`**: This directory contain all the data preprocessing method    
+- **`/data_preprocessing/data_reduction.py`**: This file using random sampling to reduce the number of image in our dataset, which help us to balance the number AI-generated images and the number human-generated images by randomly selecting certain number of AI-genereated to improve performance of our model     
+- **`/data_preprocessing/data_cleanning.py`**: This file allow us to remove duplication or similar image by using  PIL libary to hash the image. we also remove all the image that are not jpg format to improve model performance. it also resize all image to 256,256 to ensure all images is consistent      
+- **`/data_preprocessing/data_labeling.py`**: This file will convert all image to numpy array and label it with value and which output ai_images.npy,ai_label.npy,human_images.npy,human_label.npy      
+- **`/ai_images.npy`**: this file contain the preprocessed ai generated image as numpy array     
+- **`/ai_images.npy`**: This file contain the preprocessed ai generated image label as numpy array    
+- **`/human_images.npy`**: This file contain the preprocessed human generated image as numpy array    
+- **`/human_label.npy`**: this file contain the preprocessed human generated image label as numpy array   
 
 
 
@@ -63,7 +63,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Your Name** - *Initial work* - [YourUsername](https://github.com/YourUsername)
+* **Zhixiang Yan** - *Initial work* - [kevinYan2025](https://github.com/KevinYan2025)
 
 See also the list of [contributors](https://yourprojectlink/contributors) who participated in this project.
 
