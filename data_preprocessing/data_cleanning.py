@@ -55,6 +55,7 @@ class Data_cleanning:
                         print(f"Removed duplicate image {image_path}")
                     else:
                         image_hash_dict[image_hash] = image_path
+                print('finished clean all images')
             except DecompressionBombError:
                 # if the image is too larget to hash we can simply remove it
                 print(f"DecompressionBombError: {image_path}")
@@ -67,6 +68,6 @@ class Data_cleanning:
                 print(f"Removed image {image_path}")
 
 
-data_cleanning = Data_cleanning()
-data_cleanning.remove_duplicated_image('ai_generated_images/')
-data_cleanning.remove_duplicated_image('human_generated_images/')
+# data_cleanning = Data_cleanning()
+# data_cleanning.remove_duplicated_image('ai_generated_images/')
+# data_cleanning.remove_duplicated_image('human_generated_images/')

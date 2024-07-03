@@ -42,6 +42,7 @@ git ignore env-name  ai_generated_images   human_generated_images
 - **`/ai_label.npy`**: This file contain the preprocessed ai generated image label as numpy array    
 - **`/human_images.npy`**: This file contain the preprocessed human generated image as numpy array    
 - **`/human_label.npy`**: this file contain the preprocessed human generated image label as numpy array   
+- **`/notebook.ipynb`**: this is jupyter notebook that can be use to run our data preprocessing and train the model
 
 
 

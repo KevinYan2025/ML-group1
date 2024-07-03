@@ -23,9 +23,10 @@ class Data_reduction:
             if image not in sampled_images_set:
                 print(f"Removed image {image}")
                 os.remove(os.path.join(dataset_path, image))
+        print(f"Finished sampling {dataset_path}")
         
     
     
-Data_reduction = Data_reduction(2999)
-Data_reduction.random_sampling('ai_generated_images/')
-Data_reduction.random_sampling('human_generated_images/')
+# Data_reduction = Data_reduction(200)
+# Data_reduction.random_sampling('ai_generated_images/')
+# Data_reduction.random_sampling('human_generated_images/')
