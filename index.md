@@ -1,4 +1,4 @@
-# Proposal
+# Mid Point
 
 Authors: Zhixiang Yan, Abdullah Ahmed, Jad Ahmed Helmy
 
@@ -66,4 +66,4 @@ We will use the following metrics to evaluate our model:
 | Abdullah Ahmed|complete result analysis                                          |
 |Jad Ahmed Helmy|work on model                                                            |
 
-We change our origin dataset becuase it was dataset is not suitable for what we want to implement and change all three preprocessing method to accommodating that
+We change our origin dataset becuase it was not suitable for what we want to implement and change all three preprocessing method to accommodating that
