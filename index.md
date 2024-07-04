@@ -38,10 +38,10 @@ There are two potential labels we are attempting to use to classify a given piec
 Additionally, a robust model that can determine whether an artwork is AI-generated could be beneficial to help clear confusion between fake artwork and authentic pieces. [[6](http://proceedings.mlr.press/v48/reed16.html)]
 Our goal is to create a computer vision model that can accurately classify the creator of an artwork (human or machine) and identify the style of art that the artwork falls under.
 We will use the following metrics to evaluate our model:
-·  	Accuracy
-·  	Precision
-·  	Recall
-·  	F1-Score
+·  	Accuracy
+·  	Precision
+·  	Recall
+·  	F1-Score
 
 ## References
 
@@ -63,5 +63,7 @@ We will use the following metrics to evaluate our model:
 | Name          | Proposal Contribution |
 |---------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Zhixiang Yan  |Complete three data preprocessing method, complete data sourcing                                                             |
-| Abdullah Ahmed|team lead, delegate task and complete introduction and problem definition section                                            |
-|Jad Ahmed Helmy|complete method and potential result section                                                                                 |
+| Abdullah Ahmed|complete result analysis                                          |
+|Jad Ahmed Helmy|work on model                                                            |
+
+We change our origin dataset becuase it was dataset is not suitable for what we want to implement and change all three preprocessing method to accommodating that
