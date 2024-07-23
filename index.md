@@ -26,7 +26,7 @@ Label each image to create label dataset so that we can use supervise learnning 
 
 ### Supervised Learning:
 
-Neural Networks (CNNs), Support Vector Machines (SVMs) and OpenCV. The CNNs will be fine-tuned on our dataset to classify the images into human or AI-generated categories and further classify the human-made artworks into their respective styles. OpenCV allows us to easily implement feature extraction.[[4](https://www.geeksforgeeks.org/opencv-overview/)]
+Neural Networks (CNNs), Support Vector Machines (SVMs) and OpenCV. The CNNs will be fine-tuned on our dataset to classify the images into human or AI-generated categories and further classify the human-made artworks into their respective styles. Random Forest Classifier helps our model by aggregating prediction from multiple decision trees to improve classification accuracy. OpenCV allows us to easily implement feature extraction.[[4](https://www.geeksforgeeks.org/opencv-overview/)]
 
 ### Model Evaluation:
 We will use metrics such as accuracy, precision, recall, and F1-score to evaluate our model. Additionally, we will employ cross-validation techniques to ensure the robustness and generalizability of our model.
