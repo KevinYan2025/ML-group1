@@ -1,4 +1,4 @@
-# Mid Point
+# Final
 
 Authors: Zhixiang Yan, Abdullah Ahmed, Jad Ahmed Helmy
 
@@ -60,10 +60,10 @@ We will use the following metrics to evaluate our model:
 [[Gnatt Chart](https://gtvault-my.sharepoint.com/:x:/g/personal/aahmed325_gatech_edu/EX_WzZorNqpOsYLy_TFPWeMBmku716cK_ZE9_tpJgMufSA?e=tWEBQl)]
 
 
-| Name          | Proposal Contribution |
+| Name          | Final Contribution |
 |---------------|-----------------------------------------------------------------------------------------------------------------------------|
-| Zhixiang Yan  |Complete three data preprocessing method, complete data sourcing                                                             |
-| Abdullah Ahmed|complete result analysis                                          |
-|Jad Ahmed Helmy|work on model                                                            |
+| Zhixiang Yan  |Complete three data preprocessing method, complete data sourcing, complete a supervised learning models,complete proposal presentation            |
+| Abdullah Ahmed|complete introduction and problem definition and complete result analysis and model selection                                 |
+|Jad Ahmed Helmy|Complete Final Presentation and two supervised learning models                                                          |
 
 We change our origin dataset becuase it was not suitable for what we want to implement and change all three preprocessing method to accommodating that
